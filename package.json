@@ -1,0 +1,24 @@
+{
+  "name": "nodeapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hello.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarkoIvanetic/Node-app.git"
+  },
+  "author": "Marko Ivanetic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarkoIvanetic/Node-app/issues"
+  },
+  "homepage": "https://github.com/MarkoIvanetic/Node-app#readme",
+  "dependencies": {
+    "express": "^4.13.3",
+    "mysql": "*",
+    "ejs": "~1.0.0"
+  }
+}
