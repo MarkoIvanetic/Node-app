@@ -2,7 +2,7 @@ var express    =    require('express');
 var exphbs  = require('express-handlebars');	
 var app        =    express();
 
-app.engine('handlebars', exphbs({defaultLayout: 'about'}));
+app.engine('handlebars', exphbs({defaultLayout: 'index'}));
 app.set('view engine', 'handlebars');
 
 require('./router/router')(app);

@@ -6,13 +6,16 @@ module.exports = function(app)
 		next();
 	});
 	app.get('/',function(req,res){
-		res.render('index')
+		res.render('index',{layout: false})
 	});
 	app.get('/about',function(req,res){
-		res.render('about');
+		res.render('about',{
+			layout: false,
+			pageTestScript: '/qa/tests-about.js'
+		});
 	});     
 	app.get('/shop',function(req,res){
-		res.render('shop');
+		res.render('shop',{layout: false});
 	});     
 	app.get('/*',function(req,res){
 		res.send(req.url);
