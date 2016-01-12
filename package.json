@@ -18,7 +18,11 @@
   "homepage": "https://github.com/MarkoIvanetic/Node-app#readme",
   "dependencies": {
     "express": "^4.13.3",
-    "mysql": "*",
-    "ejs": "~1.0.0"
+    "express-handlebars": "^2.0.1",
+    "mysql": "*"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4"
   }
 }
